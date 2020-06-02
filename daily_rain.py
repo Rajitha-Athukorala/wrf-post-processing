@@ -37,7 +37,7 @@ rainc=data['RAINNC (mm)']
 utc=data['TIME']
 
 #number of days
-days=int(len(column_a)/19)
+days=int(len(utc)/19)
 
 #get timestamps
 timestamps=[]
